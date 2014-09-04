@@ -1,13 +1,13 @@
-package org.wwolf.S4CoverOff;
+package org.wwolf.s4coveroff;
 
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import org.durka.hallmonitor.R;
-import org.wwolf.S4CoverOff.Functions.Actions;
-import org.wwolf.S4CoverOff.Functions.TorchActions;
+import org.wwolf.s4coveroff.R;
+import org.wwolf.s4coveroff.Functions.Actions;
+import org.wwolf.s4coveroff.Functions.TorchActions;
 
 import android.app.Activity;
 import android.appwidget.AppWidgetHostView;
@@ -155,7 +155,7 @@ public class DefaultActivity extends Activity {
 				} else {
 					Log.d("phone", "phone controls are not enabled");
 				}
-			} else if (intent.getAction().equals("org.wwolf.S4CoverOff.debug")) {
+			} else if (intent.getAction().equals("org.wwolf.s4coveroff.debug")) {
 				Log.d("DA.onReceive", "received debug intent");
 				// test intent to show/hide a notification
 				switch (intent.getIntExtra("notif", 0)) {
@@ -384,7 +384,7 @@ public class DefaultActivity extends Activity {
 		filter.addAction(Intent.ACTION_SCREEN_ON);
 		filter.addAction(ALARM_ALERT_ACTION);
 		filter.addAction(TelephonyManager.ACTION_PHONE_STATE_CHANGED);
-		filter.addAction("org.wwolf.S4CoverOff.debug");
+		filter.addAction("org.wwolf.s4coveroff.debug");
 		filter.addAction(ALARM_DONE_ACTION);
 		registerReceiver(receiver, filter);
 		

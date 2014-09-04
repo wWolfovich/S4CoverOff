@@ -16,7 +16,7 @@
 
 package eu.chainfire.libsuperuser;
 
-import org.durka.hallmonitor.BuildConfig;
+import org.wwolf.s4coveroff.BuildConfig;
 
 import android.os.Looper;
 import android.util.Log;

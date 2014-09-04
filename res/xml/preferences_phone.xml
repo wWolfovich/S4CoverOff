@@ -32,8 +32,8 @@
             android:summary="@string/pref_phone_preview_summary">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:targetPackage="org.wwolf.S4CoverOff"
-                android:targetClass="org.wwolf.S4CoverOff.DefaultActivity">
+                android:targetPackage="org.wwolf.s4coveroff"
+                android:targetClass="org.wwolf.s4coveroff.DefaultActivity">
                 <extra
                     android:name="preview"
                     android:value="phoneWidget"

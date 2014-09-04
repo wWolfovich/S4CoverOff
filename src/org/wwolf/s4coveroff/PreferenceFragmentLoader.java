@@ -12,10 +12,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.wwolf.S4CoverOff;
+package org.wwolf.s4coveroff;
 
-import org.durka.hallmonitor.R;
-import org.wwolf.S4CoverOff.Functions.TorchActions;
+import org.wwolf.s4coveroff.R;
+import org.wwolf.s4coveroff.Functions.TorchActions;
 
 import eu.chainfire.libsuperuser.Shell;
 import android.app.Activity;

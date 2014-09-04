@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.wwolf.S4CoverOff;
+package org.wwolf.s4coveroff;
 
 import android.content.Intent;
 import android.os.Bundle;

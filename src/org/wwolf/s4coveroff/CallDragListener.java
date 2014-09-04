@@ -1,4 +1,4 @@
-package org.wwolf.S4CoverOff;
+package org.wwolf.s4coveroff;
 
 import android.util.Log;
 import android.view.DragEvent;

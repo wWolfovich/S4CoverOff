@@ -1,6 +1,6 @@
 package io.github.homelocker.lib;
 
-import org.durka.hallmonitor.R;
+import org.wwolf.s4coveroff.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;

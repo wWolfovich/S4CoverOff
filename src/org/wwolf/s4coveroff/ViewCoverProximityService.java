@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.wwolf.S4CoverOff;
+package org.wwolf.s4coveroff;
 
 import java.util.Timer;
 import java.util.TimerTask;

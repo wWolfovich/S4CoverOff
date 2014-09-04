@@ -1,4 +1,4 @@
-package org.wwolf.S4CoverOff;
+package org.wwolf.s4coveroff;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

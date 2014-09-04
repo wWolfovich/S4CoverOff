@@ -12,7 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.wwolf.S4CoverOff;
+package org.wwolf.s4coveroff;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -20,7 +20,7 @@ import java.util.Scanner;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import org.durka.hallmonitor.R;
+import org.wwolf.s4coveroff.R;
 
 import android.app.Activity;
 import android.app.ActivityManager;
