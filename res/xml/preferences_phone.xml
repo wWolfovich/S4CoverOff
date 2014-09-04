@@ -32,8 +32,8 @@
             android:summary="@string/pref_phone_preview_summary">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:targetPackage="org.durka.hallmonitor"
-                android:targetClass="org.durka.hallmonitor.DefaultActivity">
+                android:targetPackage="org.wwolf.S4CoverOff"
+                android:targetClass="org.wwolf.S4CoverOff.DefaultActivity">
                 <extra
                     android:name="preview"
                     android:value="phoneWidget"

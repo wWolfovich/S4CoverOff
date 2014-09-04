@@ -1,4 +1,6 @@
-package org.durka.hallmonitor;
+package org.wwolf.S4CoverOff;
+
+import org.durka.hallmonitor.R;
 
 import android.content.ClipData;
 import android.content.Context;

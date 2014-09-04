@@ -1,4 +1,4 @@
-package org.durka.hallmonitor;
+package org.wwolf.S4CoverOff;
 
 import android.util.Log;
 import android.view.DragEvent;

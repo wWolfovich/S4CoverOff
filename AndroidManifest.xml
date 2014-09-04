@@ -40,26 +40,26 @@
                android:icon="@drawable/ic_launcher"
                android:label="@string/app_name"
                android:theme="@style/AppTheme">
-    <activity android:name="org.durka.hallmonitor.MainActivity"
+    <activity android:name="org.wwolf.S4CoverOff.MainActivity"
               android:label="@string/app_name">
       <!-- TODO delete this -->
     </activity>
-    <activity android:name="org.durka.hallmonitor.Configuration"
+    <activity android:name="org.wwolf.S4CoverOff.Configuration"
               android:label="@string/app_name">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <service android:name="org.durka.hallmonitor.ViewCoverHallService" />
-    <service android:name="org.durka.hallmonitor.ViewCoverProximityService" />
-    <service android:name=".NotificationService"
+    <service android:name="org.wwolf.S4CoverOff.ViewCoverHallService" />
+    <service android:name="org.wwolf.S4CoverOff.ViewCoverProximityService" />
+    <service android:name="org.wwolf.S4CoverOff.NotificationService"
              android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
       <intent-filter>
         <action android:name="android.service.notification.NotificationListenerService" />
       </intent-filter>
     </service>
-    <receiver android:name="org.durka.hallmonitor.AdminReceiver"
+    <receiver android:name="org.wwolf.S4CoverOff.AdminReceiver"
               android:label="@string/app_name"
               android:permission="android.permission.BIND_DEVICE_ADMIN">
       <meta-data android:name="android.app.device_admin"
@@ -68,13 +68,13 @@
         <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
       </intent-filter>
     </receiver>
-    <receiver android:name="org.durka.hallmonitor.BootReceiver">
+    <receiver android:name="org.wwolf.S4CoverOff.BootReceiver">
       <intent-filter>
         <action android:name="android.intent.action.BOOT_COMPLETED" />
         <action android:name="android.intent.action.QUICKBOOT_POWERON" />
       </intent-filter>
     </receiver>
-    <activity android:name="org.durka.hallmonitor.DefaultActivity"
+    <activity android:name="org.wwolf.S4CoverOff.DefaultActivity"
               android:screenOrientation="portrait"
               android:configChanges="orientation|keyboardHidden|screenSize"
               android:launchMode="singleTask"

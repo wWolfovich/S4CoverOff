@@ -1,4 +1,4 @@
-package org.durka.hallmonitor;
+package org.wwolf.S4CoverOff;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

@@ -1,6 +1,8 @@
-package org.durka.hallmonitor;
+package org.wwolf.S4CoverOff;
 
 import java.util.HashMap;
+
+import org.durka.hallmonitor.R;
 
 import android.app.Activity;
 import android.appwidget.AppWidgetHost;

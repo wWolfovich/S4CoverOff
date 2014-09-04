@@ -180,7 +180,7 @@ public class Events
             System.loadLibrary("GetEvent");
         } catch (UnsatisfiedLinkError eGeneric) {
         	try {
-                System.load("/data/data/org.durka.hallmonitor/lib/libGetEvent.so");
+                System.load("/data/data/org.wwolf.S4CoverOff/lib/libGetEvent.so");
             } catch (UnsatisfiedLinkError eApkLib) {
             	try {
                     System.load("/data/app-lib/HallMonitor/libGetEvent.so");

@@ -44,12 +44,12 @@ LIB=/tmp/hallmonitor/lib/$ABI
 COM=/tmp/hallmonitor/common
 
 ui_print "- Removing old files"
-rm -f /cache/dalvik-cache/*org.durka.hallmonitor*
-rm -f /data/anr/*org.durka.hallmonitor*
-rm -f /data/app/org.durka.hallmonitor*
+rm -f /cache/dalvik-cache/*org.wwolf.S4CoverOff*
+rm -f /data/anr/*org.wwolf.S4CoverOff*
+rm -f /data/app/org.wwolf.S4CoverOff*
 rm -f /data/app-lib/HallMonitor/libGetEvent.so
 rm -f /data/dalvik-cache/*HallMonitor.apk*
-rm -f /data/dalvik-cache/*org.durka.hallmonitor*
+rm -f /data/dalvik-cache/*org.wwolf.S4CoverOff*
 rm -f /system/app/HallMonitor.apk
 rm -f /system/app/HallMonitor.odex
 rm -f /system/lib/libGetEvent.so

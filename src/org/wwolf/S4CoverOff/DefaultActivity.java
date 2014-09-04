@@ -1,12 +1,13 @@
-package org.durka.hallmonitor;
+package org.wwolf.S4CoverOff;
 
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import org.durka.hallmonitor.Functions.Actions;
-import org.durka.hallmonitor.Functions.TorchActions;
+import org.durka.hallmonitor.R;
+import org.wwolf.S4CoverOff.Functions.Actions;
+import org.wwolf.S4CoverOff.Functions.TorchActions;
 
 import android.app.Activity;
 import android.appwidget.AppWidgetHostView;
@@ -33,7 +34,6 @@ import android.widget.ImageView;
 import android.widget.TextClock;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
 import io.github.homelocker.lib.HomeKeyLocker;
 
 /**
@@ -155,7 +155,7 @@ public class DefaultActivity extends Activity {
 				} else {
 					Log.d("phone", "phone controls are not enabled");
 				}
-			} else if (intent.getAction().equals("org.durka.hallmonitor.debug")) {
+			} else if (intent.getAction().equals("org.wwolf.S4CoverOff.debug")) {
 				Log.d("DA.onReceive", "received debug intent");
 				// test intent to show/hide a notification
 				switch (intent.getIntExtra("notif", 0)) {
@@ -384,7 +384,7 @@ public class DefaultActivity extends Activity {
 		filter.addAction(Intent.ACTION_SCREEN_ON);
 		filter.addAction(ALARM_ALERT_ACTION);
 		filter.addAction(TelephonyManager.ACTION_PHONE_STATE_CHANGED);
-		filter.addAction("org.durka.hallmonitor.debug");
+		filter.addAction("org.wwolf.S4CoverOff.debug");
 		filter.addAction(ALARM_DONE_ACTION);
 		registerReceiver(receiver, filter);
 		

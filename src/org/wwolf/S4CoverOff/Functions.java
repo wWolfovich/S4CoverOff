@@ -12,13 +12,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.durka.hallmonitor;
+package org.wwolf.S4CoverOff;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 import java.util.Timer;
 import java.util.TimerTask;
+
+import org.durka.hallmonitor.R;
 
 import android.app.Activity;
 import android.app.ActivityManager;

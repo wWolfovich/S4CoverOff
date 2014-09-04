@@ -12,15 +12,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.durka.hallmonitor;
+package org.wwolf.S4CoverOff;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 
-public class BootReceiver extends BroadcastReceiver {
+public class HeadsetReceiver extends BroadcastReceiver {
     @Override
-    public void onReceive(Context context, Intent intent) {
-    	Functions.Events.boot(context);
+    public void onReceive(Context ctx, Intent intent) {
+    	int state = intent.getExtras().getInt("state");
+    	Log.d("HR", "headset is " + (state == 0 ? "gone" : "here") + "!");
+    	Functions.Events.headset(ctx, state);
     }
 }
